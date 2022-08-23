@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <title>CAS Login</title>
+  <!-- Bootstrap core CSS -->
+  <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <!-- Custom styles for this template -->
+  <link th:href="@{/css/spring-saml-sp.css}" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <!-- Main starts -->
+  <div role="main" class="container">
+  	<!-- Header starts -->
+    <header role="header" class="d-flex align-items-center p-3 my-3 text-white-50 bg-spring-green rounded box-shadow">      
+      <div class="lh-100">
+        <h6 class="mb-0 text-white lh-100"> CAS SAML Login</h6>        
+      </div>
+    </header>
+    <!-- Header ends -->
+    <!-- Content starts -->
+    <section role="content" class="my-3 p-3 bg-white rounded box-shadow" layout:fragment="content">
+		<!-- Page content goes here! -->
+    </section>
+    <!-- Content ends -->
+    <!-- Footer starts -->
+    <footer role="footer">
+        
+    </footer>
+    <!-- Footer ends -->
+  </div>
+  <!-- Main ends -->
+  <!-- Bootstrap scripts -->
+  <script th:src="@{/js/bootstrap.min.js}"></script>
+  <!-- Font Awesome scripts -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+</body>
+
+</html>
